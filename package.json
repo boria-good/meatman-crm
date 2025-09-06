@@ -92,7 +92,7 @@
   "engines": {
     "node": ">=20.0.0"
   },
-	"overrides": {
-		"ajv": "8.17.1"
-	}
+  "overrides": {
+    "ajv": "8.17.1"
+  }
 }

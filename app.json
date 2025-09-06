@@ -90,5 +90,30 @@
   "owner": "boria_good",
   "runtimeVersion": {
     "policy": "appVersion"
+  },
+  "expo": {
+    "android": {
+      "splash": {
+        "backgroundColor": "#cd0c11"
+      }
+    },
+    "ios": {
+      "splash": {
+        "backgroundColor": "#cd0c11"
+      }
+    },
+    "web": {
+      "splash": {
+        "backgroundColor": "#cd0c11"
+      }
+    },
+    "splash": {
+      "backgroundColor": "#cd0c11"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "161f0bc2-cbd5-4a1c-96f7-0fccbee87637"
+      }
+    }
   }
 }
