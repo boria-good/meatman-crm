@@ -1,73 +1,93 @@
 {
-	"name": "MeatmanCRM",
-	"slug": "MeatmanCRM",
-	"scheme": "meatmancrm",
-	"version": "1.0.0",
-	"orientation": "portrait",
-	"userInterfaceStyle": "automatic",
-	"icon": "./assets/images/app-icon-all.png",
-	"updates": {
-		"fallbackToCacheTimeout": 0
-	},
-	"newArchEnabled": true,
-	"jsEngine": "hermes",
-	"assetBundlePatterns": [
-		"**/*"
-	],
-	"android": {
-		"icon": "./assets/images/app-icon-android-legacy.png",
-		"package": "fop.khoroshyi.borys.meatman.crm",
-		"adaptiveIcon": {
-			"foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
-			"backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
-		},
-		"allowBackup": false,
-		"edgeToEdgeEnabled": true
-	},
-	"ios": {
-		"icon": "./assets/images/app-icon-ios.png",
-		"supportsTablet": true,
-		"bundleIdentifier": "fop.khoroshyi.borys.meatman.crm"
-	},
-	"web": {
-		"favicon": "./assets/images/app-icon-web-favicon.png",
-		"bundler": "metro"
-	},
-	"plugins": [
-		"expo-localization",
-		"expo-font",
-		[
-			"expo-splash-screen",
-			{
-				"image": "./assets/images/app-icon-android-adaptive-foreground.png",
-				"imageWidth": 300,
-				"resizeMode": "contain",
-				"backgroundColor": "#191015"
-			}
-		],
-		[
-			"react-native-edge-to-edge",
-			{
-				"android": {
-					"parentTheme": "Light",
-					"enforceNavigationBarContrast": false
-				}
-			}
-		]
-	],
-	"experiments": {
-		"tsconfigPaths": true
-	},
-	"extra": {
-		"ignite": {
-			"version": "11.1.2"
-		},
-		"eas": {
-			"projectId": "f69f3fd6-abb1-4d22-a973-fd0949d0c5ab"
-		}
-	},
-	"owner": "boria_good",
-	"runtimeVersion": {
-		"policy": "appVersion"
-	}
+  "name": "MeatmanCRM",
+  "slug": "MeatmanCRM",
+  "scheme": "meatmancrm",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "userInterfaceStyle": "automatic",
+  "icon": "./assets/images/app-icon-all.png",
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "newArchEnabled": true,
+  "jsEngine": "hermes",
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "android": {
+    "icon": "./assets/images/app-icon-android-legacy.png",
+    "package": "fop.khoroshyi.borys.meatman.crm",
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
+      "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
+    },
+    "allowBackup": false,
+    "edgeToEdgeEnabled": true
+  },
+  "ios": {
+    "icon": "./assets/images/app-icon-ios.png",
+    "supportsTablet": true,
+    "bundleIdentifier": "fop.khoroshyi.borys.meatman.crm"
+  },
+  "web": {
+    "favicon": "./assets/images/app-icon-web-favicon.png",
+    "bundler": "metro"
+  },
+  "plugins": [
+    "expo-localization",
+    "expo-font",
+    [
+      "expo-splash-screen",
+      {
+        "image": "./assets/images/app-icon-android-adaptive-foreground.png",
+        "imageWidth": 300,
+        "resizeMode": "contain",
+        "backgroundColor": "#191015"
+      }
+    ],
+    [
+      "react-native-edge-to-edge",
+      {
+        "android": {
+          "parentTheme": "Light",
+          "enforceNavigationBarContrast": false
+        }
+      }
+    ]
+  ],
+  "experiments": {
+    "tsconfigPaths": true
+  },
+  "extra": {
+    "ignite": {
+      "version": "11.1.2"
+    },
+    "eas": {
+      "projectId": "f69f3fd6-abb1-4d22-a973-fd0949d0c5ab"
+    }
+  },
+  "owner": "boria_good",
+  "runtimeVersion": {
+    "policy": "appVersion"
+  },
+  "expo": {
+    "android": {
+      "splash": {
+        "backgroundColor": "#000000"
+      }
+    },
+    "ios": {
+      "splash": {
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "splash": {
+        "backgroundColor": "#000000"
+      }
+    },
+    "splash": {
+      "backgroundColor": "#000000"
+    }
+  }
 }
